@@ -1,0 +1,87 @@
+@import "../../global.scss";
+.topbar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    color: $mainColor;
+    position: fixed;
+    top: 0;
+    z-index: 3; /*this keeps bar at the top when scrolling if z is bigger than other pages*/
+    transition: all 1s ease;
+
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /*this seperates items in left right and center*/
+        
+        .left{
+            display: flex;
+            align-items: center;
+
+            .logo{
+                font-size: 40px;
+                font-weight: 700;
+                text-decoration: none;
+                color: inherit;
+                margin-right: 40px;
+            }
+
+            .itemContainer{
+                display: flex;
+                align-items: center; /*display flex and allign-item center keeps icons and text flush*/
+                margin-left: 30px;
+
+                .icon{
+                    font-size: 18px;
+                    margin-right: 5px;
+                }
+
+                span{
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .right{
+
+            .hamburger{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+                span{
+                    width: 100%;
+                    height: 3px;
+                    background-color: $mainColor;
+                    transform-origin: left;
+                    transition: all 2s ease; /*all transition will happen after 2 second on rendering */
+                }
+            }
+        }
+    }
+    /* &. means and if className topbar is active*/
+    &.active{
+        background-color: $mainColor;
+        color: white;
+
+        .hamburger{
+            span{
+                &:first-child{
+                    background-color: white;
+                    transform: rotate(45deg) /*this is a transition*/
+                }
+                &:nth-child(2){
+                    opacity: 0; /*this is a transition*/
+                }
+                &:last-child{
+                    background-color: white;
+                    transform: rotate(-45deg) /*this is a transition*/                   
+                }
+            }
+        }
+    }
+}

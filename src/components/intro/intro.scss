@@ -1,0 +1,30 @@
+@import "../../global.scss";
+
+.intro{
+    background-color: whitesmoke;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        background-color: $quadColor;
+        overflow: hidden;
+
+        .imgContainer{
+            width: 400px;       /*box containing the image*/
+            height: 400px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 80%;     /*image size*/
+            }
+        }
+    }
+    .right{
+        flex: 0.5;
+        background-color: $fifColor;
+    }
+}
