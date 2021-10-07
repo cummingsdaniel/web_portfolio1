@@ -6,25 +6,62 @@
 
     .left{
         flex: 0.5;
-        background-color: $quadColor;
+        background-color: $mainColor;
         overflow: hidden;
 
         .imgContainer{
-            width: 400px;       /*box containing the image*/
-            height: 400px;
+            width: 700px;       /*box containing the image*/
+            height: 700px;
             background-color: white;
             border-radius: 50%;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            align-items: flex-end;
+            justify-content: left;
+            float: right;  /*item placed from the right side of the divider column */
 
             img{
-                width: 80%;     /*image size*/
+                width: 75%;     /*image size*/
             }
         }
     }
     .right{
         flex: 0.5;
-        background-color: $fifColor;
+        position: relative;
+
+        .wrapper{
+           width: 100%;
+           height: 100%;
+           padding-left: 50px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+
+           h1{
+            font-size: 60px;
+            margin: 10px 0;
+           }
+
+           h2{
+               font-size: 35px;
+           }
+           h3{
+               font-size: 30px;
+           }
+        }
+        a{
+            position: relative;
+            bottom: 10px;
+            left: 40%;
+            img{
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink{
+                100%{
+                    opacity: 0;
+                }
+            }
+        }
     }
 }
