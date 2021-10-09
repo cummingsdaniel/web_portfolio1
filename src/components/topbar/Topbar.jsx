@@ -1,5 +1,5 @@
 import "./topbar.scss"
-import {Refresh, Person, Mail} from "@material-ui/icons"
+import {Person, Mail} from "@material-ui/icons"
 export default function Topbar({menuO, setMenuO}) {
     return (
         <div className={"topbar " + (menuO && "active")}> {/*if menuO is true then active is part of the name*/}
