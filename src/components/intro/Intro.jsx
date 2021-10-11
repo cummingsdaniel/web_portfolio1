@@ -11,7 +11,6 @@ export default function Intro() {
     const textReff = useRef();
     useEffect(()=>{
         init(textReff.current,{
-            showCursor: false,
             backDelay: 1500,
             backSpeed: 60,
             showCursor: true,
