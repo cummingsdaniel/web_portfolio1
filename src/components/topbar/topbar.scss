@@ -2,7 +2,7 @@
 .topbar{
     width: 100%;
     height: 70px;
-    background-color: white;
+    background-color: whitesmoke;
     color: $mainColor;
     position: fixed;
     top: 0;
@@ -71,14 +71,14 @@
         .hamburger{
             span{
                 &:first-child{
-                    background-color: white;
+                    background-color: whitesmoke;
                     transform: rotate(45deg) /*this is a transition*/
                 }
                 &:nth-child(2){
                     opacity: 0; /*this is a transition*/
                 }
                 &:last-child{
-                    background-color: white;
+                    background-color: whitesmoke;
                     transform: rotate(-45deg) /*this is a transition*/                   
                 }
             }

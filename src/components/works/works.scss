@@ -1,3 +1,106 @@
+@import "../../global.scss";
+
 .works{
-    background-color: #90ee90;
+    background-color: $tiniaryColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .arrow{
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+
+        &.left {
+            left:  100px;
+            transform: rotateY(180deg);
+        }
+
+        &.right {
+            right: 100px;
+        }
+    }
+    .slider{
+        height: 350px;
+        display: flex;
+        position: absolute;
+        
+        .container{
+            width: 100vx;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item{
+                width: 700px;
+                height: 100%; 
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+
+                .left{
+                    height: 80%;
+                    flex: 4;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .leftContainer{
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .imgContainer{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: $subColor;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            
+                            img{
+                                width: 25px;
+                            }
+                            // @include mobile{
+                            //     width: 20px;
+                            //     height: 20px;
+                            // }
+                        }
+                        h2{
+                            font-size: 20px;
+                        }
+                        p{
+                           font-size: 13px; 
+                        }
+                        span{
+                            font-size: 12px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .right{
+                    flex: 8;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+                    background-color: white;
+
+                    img{
+                        width: 400px;
+                        transform: rotate(-10deg);
+                    }
+                }
+            }
+        }
+    }
 }

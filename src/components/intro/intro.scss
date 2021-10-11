@@ -12,7 +12,7 @@
         .imgContainer{
             width: 700px;       /*box containing the image*/
             height: 700px;
-            background-color: white;
+            background-color: whitesmoke;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
@@ -40,12 +40,32 @@
             font-size: 60px;
             margin: 10px 0;
            }
-
+            
            h2{
                font-size: 35px;
            }
            h3{
                font-size: 30px;
+               span{
+                   font-size: inherit;
+                   color: $tiniaryColor;
+               }
+               /*settings for the curser in the animation*/
+               .ityped-cursor {
+                font-size: 2.2rem;
+                opacity: 1;
+                -webkit-animation: blink 0.3s infinite;
+                -moz-animation: blink 0.3s infinite;
+                animation: blink 1s infinite;
+                animation-direction: alternate;
+            }
+            /*settings for the curser in the animation*/
+            @keyframes blink {
+                100% {
+                    opacity: 0;
+                }
+            }
+
            }
         }
         a{
