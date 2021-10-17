@@ -2,14 +2,20 @@
 
 .portfolioTab{
     font-size: 12px;
-    margin-right: 5px;
+    margin-right: 10px;
     padding: 7px;
     border-radius: 10px;
     cursor: pointer;
+    overflow: hidden;
+
+    @include mobile{
+        margin-right: 20px;
+        padding: 20px;
+      }
 
     &.active{
         background-color: $mainColor;
         color: white;
-
+        overflow: hidden;
     }
 }

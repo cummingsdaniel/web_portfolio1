@@ -32,6 +32,10 @@
                 align-items: center; /*display flex and allign-item center keeps icons and text flush*/
                 margin-left: 30px;
 
+                @include mobile{
+                    display: none;
+                }
+
                 .icon{
                     font-size: 18px;
                     margin-right: 5px;

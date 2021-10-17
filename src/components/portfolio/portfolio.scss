@@ -5,9 +5,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
     h1{
         font-size: 50px;
+        overflow: hidden;
+        @include mobile{
+            font-size: 20px;
+        }   
     }
 
     ul{
@@ -16,12 +21,25 @@
         list-style: none;
         display: flex;
 
+        @include mobile{
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1px;
+            overflow-y: hidden;
+          }
+
         li{
             font-size: 12px;
-            margin-right: 5px;
+            margin-right: 20px;
             padding: 7px;
             border-radius: 10px;
             cursor: pointer;
+            overflow: hidden;
+
+            @include mobile{
+                padding: 5px;
+            }
 
             &.active{
                 background-color: $mainColor;
@@ -37,6 +55,10 @@
         justify-content: center;
         flex-wrap: wrap;
 
+        @include mobile{
+            width: 100%;
+          }
+
         .item{
             width: 220px;
             height: 150px;
@@ -50,6 +72,12 @@
             position: relative;
             transition: all .5s ease;
             cursor: pointer;
+
+            @include mobile{
+                width: 130px;
+                height: 100px;
+                margin: 10px 10px;
+              }
 
             h3{
                 position: absolute;

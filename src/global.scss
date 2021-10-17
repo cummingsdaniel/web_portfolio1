@@ -4,3 +4,11 @@ $subColor: #92377D;
 $tiniaryColor: #ED4B7B;
 $quadColor: #F3A54B;
 $fifColor: #E6C135;
+
+$width: 975px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
