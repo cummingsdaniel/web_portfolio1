@@ -1,4 +1,9 @@
 @import "../../global.scss";
+:root{
+  --primary: hsla(0, 0%, 100%, 0);
+  --secondary: hsla(0, 0%, 100%, 0);
+  --tiniary: rgb(255, 255, 255);
+}
 
 .contact {
     background-color: white;
@@ -11,10 +16,9 @@
     .left {
       flex: 1;
       overflow: hidden;
-  
-      img {
-        height: 100%;
-      }
+      background: linear-gradient(90deg, var(--primary), var(--secondary), var(--tiniary)),
+      url('./../../me_laptop.jpg') no-repeat center left / cover;
+
     }
     .right {
       flex: 1;

@@ -6,7 +6,7 @@ import { featuredPortfolio,
     mobilePortfolio,
     designPortfolio,
     brandingPortfolio} from "../../data";
-
+import { SRLWrapper,} from "simple-react-lightbox";
 export default function Portfolio() {
     const [selected,setSelected] = useState("featured");
     const [data,setData] = useState([]);
@@ -59,6 +59,19 @@ export default function Portfolio() {
         }
 
     },[selected])
+
+    const options = {
+        buttons: {
+            showAutoplayButton: false,
+            showCloseButton: true,
+            showDownloadButton: false,
+            showFullscreenButton: true,
+            showNextButton: false,
+            showPrevButton: false,
+            size: '40px'
+          }
+      };
+
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>        
@@ -75,11 +88,13 @@ export default function Portfolio() {
                 <div className="container">
                     {data.map((d) => (
                     <div className="item">
-                        <img src={d.img} alt=""/>
+                        <SRLWrapper options={options}>
+                        <img src={d.img} alt="" />
                         <h3>{d.title}</h3>
+                        </SRLWrapper>
                     </div>
                     ))}
                 </div>
         </div>
-    )
+        )
 }

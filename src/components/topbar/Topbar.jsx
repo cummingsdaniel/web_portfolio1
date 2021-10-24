@@ -6,7 +6,8 @@ export default function Topbar({menuO, setMenuO}) {
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">  {/* href=#intro means page will snap to info section on click */}
-                        dan.
+                        {/* <img src="assest/logo_black.png" alt=""/>*/}
+                        dani.™
                     </a>
                     <div className="itemContainer">
                         <Person className="icon"/>

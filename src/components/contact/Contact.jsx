@@ -10,8 +10,7 @@ export default function Contact() {
     };  
     return (
         <div className="contact" id="contact">
-            <div className="left">
-                <img src="assest/me_laptop.jpg" alt="" />
+            <div className="left">            
             </div>
             <div className="right">
                 <h2>Contact.</h2>

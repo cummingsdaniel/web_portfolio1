@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact"
 import "./app.scss"
 import {useState} from "react";
 import Menu from "./components/menu/Menu";
+import SimpleReactLightbox from "simple-react-lightbox";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -16,7 +17,9 @@ function App() {
       <div className="sections">
      {/* &lt;This section is relative&gt; */}
         <Intro/>
-        <Portfolio/>
+        <SimpleReactLightbox>
+          <Portfolio/>
+        </SimpleReactLightbox>
         <Works/>
         <Contact/>
       </div>
