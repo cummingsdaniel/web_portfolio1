@@ -1,27 +1,27 @@
 export const featuredPortfolio = [
 {
     id: 1,
-    title: "blab",
-    img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61582b9e-d9f4-48ab-a4a5-8d5d9619ca55/defpobj-a9472c31-7049-4d24-970a-d86d8663884a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxNTgyYjllLWQ5ZjQtNDhhYi1hNGE1LThkNWQ5NjE5Y2E1NVwvZGVmcG9iai1hOTQ3MmMzMS03MDQ5LTRkMjQtOTcwYS1kODZkODY2Mzg4NGEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OFmAp-Ok7kDhV6xgvX7SNt3P9Z7cxkF2M8ESlTwTIkc",
+    title: "DMS Menu",
+    img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61582b9e-d9f4-48ab-a4a5-8d5d9619ca55/detd8ib-1beff357-c936-4ff9-9810-a9c91dc364f9.jpg/v1/fill/w_1280,h_989,q_75,strp/menu1_by_danstonmurphy_detd8ib-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxNTgyYjllLWQ5ZjQtNDhhYi1hNGE1LThkNWQ5NjE5Y2E1NVwvZGV0ZDhpYi0xYmVmZjM1Ny1jOTM2LTRmZjktOTgxMC1hOWM5MWRjMzY0ZjkuanBnIiwiaGVpZ2h0IjoiPD05ODkiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC82MTU4MmI5ZS1kOWY0LTQ4YWItYTRhNS04ZDVkOTYxOWNhNTVcL2RhbnN0b25tdXJwaHktNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.TMqtVwCWg0wguWLmL5cULOcv--icy19L-FQN3wQIeTY",
 },
 {
     id: 2,
-    title: "blab",
+    title: "Software1Source Logo",
     img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61582b9e-d9f4-48ab-a4a5-8d5d9619ca55/de2677h-e846b9c4-3aa8-41ac-8c57-7c2cd7515782.jpg/v1/fill/w_1280,h_1657,q_75,strp/andrew_s_logo_by_danstonmurphy_de2677h-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxNTgyYjllLWQ5ZjQtNDhhYi1hNGE1LThkNWQ5NjE5Y2E1NVwvZGUyNjc3aC1lODQ2YjljNC0zYWE4LTQxYWMtOGM1Ny03YzJjZDc1MTU3ODIuanBnIiwiaGVpZ2h0IjoiPD0xNjU3Iiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNjE1ODJiOWUtZDlmNC00OGFiLWE0YTUtOGQ1ZDk2MTljYTU1XC9kYW5zdG9ubXVycGh5LTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.8mq-y024NKMQu4fpkj3vEj1ypW-NiUpfjAhH1gEdgr8",
 },
 {
     id: 3,
-    title: "blab",
+    title: "erf logo package",
     img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61582b9e-d9f4-48ab-a4a5-8d5d9619ca55/defpots-b40a6b55-8ffb-4fca-8399-85a3eaf54e14.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxNTgyYjllLWQ5ZjQtNDhhYi1hNGE1LThkNWQ5NjE5Y2E1NVwvZGVmcG90cy1iNDBhNmI1NS04ZmZiLTRmY2EtODM5OS04NWEzZWFmNTRlMTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ts0tl0FPrvqX-Zx8n5Lu8hxvU3hw1Z-g3IeUbKyxk_U",
 },
 {
     id: 4,
-    title: "blab",
+    title: "work safe smart package",
     img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61582b9e-d9f4-48ab-a4a5-8d5d9619ca55/de26bvo-6cc7fc36-4b50-42dd-8b57-17aca2ce5957.jpg/v1/fill/w_786,h_1017,q_70,strp/layout2_by_danstonmurphy_de26bvo-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxNTgyYjllLWQ5ZjQtNDhhYi1hNGE1LThkNWQ5NjE5Y2E1NVwvZGUyNmJ2by02Y2M3ZmMzNi00YjUwLTQyZGQtOGI1Ny0xN2FjYTJjZTU5NTcuanBnIiwiaGVpZ2h0IjoiPD0xNjU3Iiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNjE1ODJiOWUtZDlmNC00OGFiLWE0YTUtOGQ1ZDk2MTljYTU1XC9kYW5zdG9ubXVycGh5LTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.KVz1DAwvy8LtTv3Dll76oFPTwyu86p1on1kaJmfgRsY",
 },
 {
     id: 5,
-    title: "blab",
+    title: "Sample email promo 2",
     img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61582b9e-d9f4-48ab-a4a5-8d5d9619ca55/defpqcz-85d12796-6ae9-4975-bda0-cb74b18ebdad.jpg/v1/fill/w_738,h_1083,q_70,strp/samle_email_promo_2_by_danstonmurphy_defpqcz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxNTgyYjllLWQ5ZjQtNDhhYi1hNGE1LThkNWQ5NjE5Y2E1NVwvZGVmcHFjei04NWQxMjc5Ni02YWU5LTQ5NzUtYmRhMC1jYjc0YjE4ZWJkYWQuanBnIiwiaGVpZ2h0IjoiPD0xODc3Iiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNjE1ODJiOWUtZDlmNC00OGFiLWE0YTUtOGQ1ZDk2MTljYTU1XC9kYW5zdG9ubXVycGh5LTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.hHsIMQlaA03mxvmsiLudMya2IVlL1PAc9EHZSBGEdEQ",
 },
 {
@@ -35,65 +35,38 @@ export const webPortfolio = [
     {
         id: 1,
         title: "Web Social Media App",
-        img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        img: "https://worldmartialartsri.com/wp-content/uploads/2017/04/default-image-620x600.jpg",
       },
       {
         id: 2,
         title: "Web Rampa UI Design",
-        img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+        img: "https://worldmartialartsri.com/wp-content/uploads/2017/04/default-image-620x600.jpg",
       },
       {
         id: 3,
         title: "Web E-commerce Design",
-        img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-      },
-      {
-        id: 4,
-        title: "Web Relax App",
-        img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-      },
-      {
-        id: 5,
-        title: "Web Design",
-        img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-      },
-      {
-        id: 6,
-        title: "Web Banking App",
-        img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+        img: "https://worldmartialartsri.com/wp-content/uploads/2017/04/default-image-620x600.jpg",
       },
 ];
 
 export const mobilePortfolio = [
     {
         id: 1,
-        title: "Mobile Social Media App",
+        title: "DMS Banner Design",
         img:
-          "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+          "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61582b9e-d9f4-48ab-a4a5-8d5d9619ca55/detderd-3fc4891a-916a-410a-a5ad-1a1347cdde6e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxNTgyYjllLWQ5ZjQtNDhhYi1hNGE1LThkNWQ5NjE5Y2E1NVwvZGV0ZGVyZC0zZmM0ODkxYS05MTZhLTQxMGEtYTVhZC0xYTEzNDdjZGRlNmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7eit6JAVFIRdTJ34PPs31SOBDIBplErzVi9Ll22hkTI",
       },
       {
         id: 2,
         title: "Mobile E-commerce Design",
         img:
-          "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+          "https://worldmartialartsri.com/wp-content/uploads/2017/04/default-image-620x600.jpg",
       },
       {
         id: 3,
         title: "Mobile Relax App",
         img:
-          "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-      },
-      {
-        id: 4,
-        title: "Mobile Hero Design",
-        img:
-          "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-      },
-      {
-        id: 5,
-        title: "Mobile Banking App",
-        img:
-          "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+          "https://worldmartialartsri.com/wp-content/uploads/2017/04/default-image-620x600.jpg",
       },
 ];
 

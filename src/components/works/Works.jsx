@@ -16,7 +16,7 @@ export default function Works() {
     {
       id: "2",
       icon: "./assest/globe.png",
-      title: "Mobile Application",
+      title: "Branding",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
@@ -25,7 +25,7 @@ export default function Works() {
     {
       id: "3",
       icon: "./assest/writing.png",
-      title: "Branding",
+      title: "Mobile Application",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
