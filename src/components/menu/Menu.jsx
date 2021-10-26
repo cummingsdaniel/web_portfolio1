@@ -14,9 +14,6 @@ export default function Menu({menuO, setMenuO}) {
                     <a href="#works">Works</a>
                 </li>
                 <li onClick={()=>setMenuO(false)}>
-                    <a href="#testimonials">Testimonials</a>
-                </li>
-                <li onClick={()=>setMenuO(false)}>
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
