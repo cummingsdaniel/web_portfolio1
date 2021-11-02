@@ -14,14 +14,22 @@ export default function Contact() {
             </div>
             <div className="right">
                 <h2>Contact.</h2>
-                <form action="POST" data-netlify="true" onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Email" />
-                    <textarea placeholder="Message"></textarea>
+                <form name="contact v1" action="post" data-netlify="true" onSubmit="submit">
+                    
+                    <input type="hidden" name="form-name" value="contact v1"/>
+                    
+                    
+                    <input type="text" name="first-name" placeholder="First Name" />
+                    
+                    <input type="email" name="email" placeholder="Email" />
+                    
+                    <textarea name="message" placeholder="Message"></textarea>
+                    
                     <div className="field">
                         <div data-netlify-recaptcha="true"></div>
                     </div>
                     <button type="submit">Send</button>
-                    {message && <span>Thanks, I'll reply ASAP :) </span>}
+                    {/* {message && <span>Thanks, I'll reply ASAP :) </span>} */}
                 </form>
             </div>
         </div>
