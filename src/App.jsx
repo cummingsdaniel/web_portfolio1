@@ -22,6 +22,7 @@ function App() {
         </SimpleReactLightbox>
         <Works/>
         <Contact/>
+        <Contact/>
       </div>
     </div>
   );
