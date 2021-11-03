@@ -14,15 +14,15 @@ export default function Contact() {
             </div>
             <div className="right">
                 <h2>Contact.</h2>
-                <form name="contact v1"
-                      action="post" 
+                <form name="contact"
+                      action="mailto:cummingsdan87@gmail.com" 
                       data-netlify="true" 
                       onSubmit="submit"
                       data-netlifty-honeypot="bot-field">
                     
-                    <input type="hidden" name="form-name" value="contact v1"/>
+                    <input type="hidden" name="form-name" value="contact"/>
                     <div hidden>
-                        <input name="bot-field" />
+                        <input name="bot-field"/>
                     </div>    
                     <input type="text" name="first-name" placeholder="First Name" />
                     

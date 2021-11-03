@@ -19,7 +19,7 @@ function App() {
         <Intro/>
         <SimpleReactLightbox>
           <Portfolio/>
-        </SimpleReactLightbox>
+        </SimpleReactLightbox>        
         <Works/>
         <Contact/>
         <Contact/>
