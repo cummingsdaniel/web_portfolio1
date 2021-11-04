@@ -49,7 +49,7 @@ export const webPortfolio = [
       },
 ];
 
-export const mobilePortfolio = [
+export const printPortfolio = [
     {
         id: 1,
         title: "DMS Banner Design",

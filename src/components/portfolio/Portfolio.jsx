@@ -3,7 +3,7 @@ import PortfolioTab from "../portfolioTab/PortfolioTab";
 import "./portfolio.scss"
 import { featuredPortfolio,
     webPortfolio,
-    mobilePortfolio,
+    printPortfolio,
     designPortfolio,
     brandingPortfolio} from "../../data";
 import { SRLWrapper,} from "simple-react-lightbox";
@@ -18,11 +18,11 @@ export default function Portfolio() {
     },
     {
         id: "web",
-        title: "Web App",
+        title: "Web",
     },
     {
-        id: "mobile",
-        title: "Mobile App",
+        id: "print",
+        title: "Print",
     },
     {
         id: "design",
@@ -44,8 +44,8 @@ export default function Portfolio() {
             case "web":
                 setData(webPortfolio);
                 break;
-            case "mobile":
-                setData(mobilePortfolio);
+            case "print":
+                setData(printPortfolio);
                 break;
             case "design":
                 setData(designPortfolio);
