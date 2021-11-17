@@ -19,8 +19,7 @@ export default function Works() {
       title: "Branding",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "",
+      img: "./assest/branding_sample.jpg",
     },
     {
       id: "3",

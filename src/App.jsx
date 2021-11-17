@@ -16,11 +16,11 @@ function App() {
       <Menu menuO={menuOpen} setMenuO={setMenuOpen}/>
       <div className="sections">
      {/* &lt;This section is relative&gt; */}
-        <Intro/>
-        <SimpleReactLightbox>
-        </SimpleReactLightbox>      
+        <Intro/>     
         <Works/>
+        <SimpleReactLightbox>
         <Portfolio/>
+        </SimpleReactLightbox> 
         <Contact/>
       </div>
     </div>
