@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react" 
 import PortfolioTab from "../portfolioTab/PortfolioTab";
 import "./portfolio.scss"
-import { featuredPortfolio,
+import {featuredPortfolio,
     webPortfolio,
     printPortfolio,
     designPortfolio,
@@ -15,14 +15,6 @@ export default function Portfolio() {
     {
         id: "featured",
         title: "Featured",
-    },
-    {
-        id: "web",
-        title: "Web",
-    },
-    {
-        id: "print",
-        title: "Print",
     },
     {
         id: "design",
